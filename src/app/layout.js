@@ -20,21 +20,21 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-        <link rel="icon" href="https://d3dyfaf3iutrxo.cloudfront.net/general/upload/fe2d200c5c4548a09ba3a9c0e9e6945b-newtonschoollogo.png"/>
-        <title>Newton School Vilas Kathera</title> 
-        <meta name="description" content="Newton School vilaskathera frontend developer assignment submission." /> 
-        <meta name="keywords" content="Newton School, Vilas Kathera, Assignment, Frontend developer assignment" /> 
+        <link rel="icon" href="https://appscrip-website.s3.us-east-2.amazonaws.com/wp-content/uploads/2021/02/01114342/appscrip-logo.webp"/>
+        <title>AppScrip Vilas Kathera</title> 
+        <meta name="description" content="AppScrip vilaskathera frontend developer assignment submission." /> 
+        <meta name="keywords" content="AppScrip, Vilas Kathera, Assignment, Frontend developer assignment" /> 
 
-        <meta property="og:title" content="Newton School Vilas Kathera" />
-        <meta property="og:description" content="Newton School vilaskathera frontend developer assignment submission." />
-        <meta property="og:image" content="https://d3dyfaf3iutrxo.cloudfront.net/general/upload/fe2d200c5c4548a09ba3a9c0e9e6945b-newtonschoollogo.png" /> 
-        <meta property="og:url" content="https://my.newtonschool.co/" /> 
+        <meta property="og:title" content="AppScrip Vilas Kathera" />
+        <meta property="og:description" content="AppScrip vilaskathera frontend developer assignment submission." />
+        <meta property="og:image" content="https://appscrip-website.s3.us-east-2.amazonaws.com/wp-content/uploads/2021/02/01114342/appscrip-logo.webp" /> 
+        <meta property="og:url" content="https://appscrip.com/" /> 
 
-        <meta property="twitter:card" content="https://d3dyfaf3iutrxo.cloudfront.net/general/upload/fe2d200c5c4548a09ba3a9c0e9e6945b-newtonschoollogo.png" />
+        <meta property="twitter:card" content="https://appscrip-website.s3.us-east-2.amazonaws.com/wp-content/uploads/2021/02/01114342/appscrip-logo.webp" />
         <meta property="twitter:site" content="@vilaskathera" />
-        <meta property="twitter:title" content="Newton School Vilas Kathera" />
-        <meta property="twitter:description" content="Newton School vilaskathera frontend developer assignment submission" />
-        <meta property="twitter:image" content="https://d3dyfaf3iutrxo.cloudfront.net/general/upload/fe2d200c5c4548a09ba3a9c0e9e6945b-newtonschoollogo.png" />
+        <meta property="twitter:title" content="AppScrip Vilas Kathera" />
+        <meta property="twitter:description" content="AppScrip vilaskathera frontend developer assignment submission" />
+        <meta property="twitter:image" content="https://appscrip-website.s3.us-east-2.amazonaws.com/wp-content/uploads/2021/02/01114342/appscrip-logo.webp" />
       </head>
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
         {children}
