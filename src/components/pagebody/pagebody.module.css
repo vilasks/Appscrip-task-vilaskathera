@@ -1,0 +1,27 @@
+/* .gridFilterContainer{
+    display: flex;
+    justify-content: center;
+} */
+
+/* .gridFilterContainerBody{
+    display: flex;    
+    justify-content: center;
+} */
+
+.gridFilterContainerBody{
+    display: flex;
+    justify-content: center;
+}
+
+.gridFilterContainer{
+    display: flex;
+    justify-content: center;
+}
+
+.gridFilterElement{
+    flex-grow: 1;
+}
+
+.gridProductsElement{
+    flex-grow: 1;
+}

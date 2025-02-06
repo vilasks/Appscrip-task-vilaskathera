@@ -1,0 +1,38 @@
+.heroSectionContainer{
+    border-bottom: 1px solid #E5E5E5;
+}
+
+.heroSection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 100px;
+    gap: 20px;
+    text-align: center;
+}
+
+.heroFont{
+    font-size: 60px;
+}
+
+.heroFooterFont{
+    font-size: 22px;
+}
+
+@media screen and (width <= 720px) {
+    .heroSection{
+        padding: 10px;
+        margin: 0px;
+        text-align: center;
+        font-size: 24px;
+    }
+    .heroFont{
+        font-size: 24px;
+    }
+    
+    .heroFooterFont{
+        font-size: 16px;
+    }
+
+}

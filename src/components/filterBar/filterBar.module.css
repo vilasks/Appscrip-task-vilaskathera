@@ -1,0 +1,45 @@
+.filterBarContainer{
+    display: flex;
+    justify-content: space-around;
+    padding: 25px 0px;
+    border-bottom: 1px solid #E5E5E5;
+    position: sticky;
+    top: 0;
+    background-color: #FFFFFF;
+    z-index: 999;
+}
+
+.filtersLeft{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.filtersShowHide{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.filtersMobile{
+    display: none;
+}
+
+.filters{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+@media screen and (width <= 720px) {
+    .filters{
+        display: none;
+    }
+
+    .filtersMobile{
+        display: block;
+    }
+}

@@ -1,0 +1,51 @@
+.selectMainContainer{
+    position: relative;
+    display: inline-block;
+    
+}
+
+.optionsTitle{
+    display: flex;
+    justify-content: space-between;
+    gap: 0.2rem;
+    cursor: pointer;
+}
+
+
+.options{
+    display: inline-flex;
+    justify-content: space-around;
+    gap: 0.1rem;
+    padding: 1rem;
+}
+
+.selectedOption{
+    font-weight: bold;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.selectOptions{
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 2rem;
+    box-shadow: 0px 0px 7px 1px rgba(163,170,175,1);
+    left: 0;
+}
+
+.selectOptionsActive{
+    display: inline-flex;
+    z-index: 99;
+    background-color: #ffffff;
+}
+
+.options:hover{
+    background-color: rgba(163,170,175,1);
+    cursor: pointer;
+}
+
+.optionLabel{
+    white-space: nowrap;
+}

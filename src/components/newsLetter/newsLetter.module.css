@@ -1,0 +1,39 @@
+.newsLetterContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.newsLetterInputContainer{
+    display: flex;
+    gap: 10px;
+}
+
+.newsLetterInput{
+    width: 384px;
+    height: 47px;
+}
+
+.subscribeBtn{
+    width: 184px;
+    height: 48px;
+    background-color: black;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.newsLetterInput:focus + .subscribeBtn{
+    color: white;
+    border: 1px solid white;
+}
+
+
+@media screen and (width <= 720px) {
+    .newsLetterInput{
+        max-width: 226px;
+        min-width: 100px;
+    }
+    .subscribeBtn{
+        min-width: 60px;
+        max-width: 109px;
+    }
+}

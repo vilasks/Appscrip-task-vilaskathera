@@ -1,0 +1,18 @@
+.iconsContainer{
+    display: flex;
+    gap: 8px;
+    margin-top: 8px;
+}
+
+.followUsContainerMobile{
+    display: none;
+}
+
+@media screen and (width <= 720px) {
+    .followUsContainer{
+        display: none;
+    }
+    .followUsContainerMobile{
+       display: block;
+    }
+}

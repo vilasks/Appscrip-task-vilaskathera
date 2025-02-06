@@ -1,0 +1,41 @@
+.aLabel{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0px;
+}
+
+.accordianContainer{
+    padding: 10px;
+    border-bottom: 1px solid rgba(255, 1255, 255, 0.5);
+    overflow: hidden;
+    cursor: pointer;
+    width: 300px;
+    color: white;
+}
+
+.accordianWrapper{
+  display: grid;
+  grid-template-rows: 0fr;
+  transition: grid-template-rows 0.2s ease-out;
+}
+
+.accordianWrapperOpen{
+    grid-template-rows: 1fr; 
+}
+
+.accordianContent{
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+.accordianOption{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 10px;
+}
+

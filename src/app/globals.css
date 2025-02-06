@@ -1,28 +1,3 @@
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
-html,
-body {
-  max-width: 100vw;
-  overflow-x: hidden;
-}
-
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
 
 * {
   box-sizing: border-box;
@@ -30,13 +5,112 @@ body {
   margin: 0;
 }
 
-a {
-  color: inherit;
+.p-cursor{
+  cursor: pointer;
+}
+
+.text-clip{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.t60{
+  font-size: 60px;
+}
+
+.t36{
+  font-size: 36px;
+}
+
+.t24{
+  font-size: 22px;
+}
+
+.t22{
+  font-size: 22px;
+}
+
+.t20{
+  font-size: 20px;
+}
+
+.t18{
+  font-size: 18px;
+}
+
+.t16{
+  font-size: 16px;
+}
+
+.t14{
+  font-size: 14px;
+}
+
+.t12{
+  font-size: 12px;
+}
+
+.t-primary{
+  color: #252020;
+}
+
+.t-secondary{
+  color: #888792;
+}
+
+.t-secondary-input{
+  color: #BFC8CD;
+}
+
+.t-white{
+  color: #FFFFFF;
+}
+
+.t-underline{
+  text-decoration: underline;
+}
+
+.bold100{
+  font-weight: 100;
+}
+
+.bold200{
+  font-weight: 200;
+}
+
+.bold300{
+  font-weight: 300;
+}
+
+.bold400{
+  font-weight: 400;
+}
+
+.bold500{
+  font-weight: 500;
+}
+
+.bold600{
+  font-weight: 600;
+}
+
+.bold700{
+  font-weight: 700;
+}
+
+.bold800{
+  font-weight: 800;
+}
+
+.bold900{
+  font-weight: 900;
+}
+
+.decoration-none{
   text-decoration: none;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
+.t-center{
+  text-align: center;
 }

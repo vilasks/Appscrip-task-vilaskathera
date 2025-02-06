@@ -1,0 +1,18 @@
+.linksContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.linksContainerMobile{
+    display: none;
+}
+
+@media screen and (width <= 720px) {
+    .linksContainer{
+        display: none;
+    }
+    .linksContainerMobile{
+        display: block;
+    }
+}
