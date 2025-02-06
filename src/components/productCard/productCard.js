@@ -1,5 +1,5 @@
-import Icon from '../icon/icon';
-import LikeBtn from '../llikeBtn/likeBtn';
+import Icon from '../../utils/icon/icon';
+import LikeBtn from '../../utils/llikeBtn/likeBtn';
 import styles from './productCard.module.css';
 export default function ProductCard({productData}){
     const {title,image} = productData;

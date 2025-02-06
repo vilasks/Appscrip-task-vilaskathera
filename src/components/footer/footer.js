@@ -1,10 +1,10 @@
 import styles from './footer.module.css'
-import ContactUs from "../contactUs/contactUs";
-import NewsLetter from "../newsLetter/newsLetter";
-import FooterLinks from '../footerLinks/footerLinks';
-import QuickLinks from '../quickLinks/quickLinks';
-import FollowUs from '../followUs/followUs';
-import PaymentMethods from '../paymentMethods/paymentMethods';
+import ContactUs from "../../utils/contactUs/contactUs";
+import NewsLetter from "../../utils/newsLetter/newsLetter";
+import FooterLinks from '../../utils/footerLinks/footerLinks';
+import QuickLinks from '../../utils/quickLinks/quickLinks';
+import FollowUs from '../../utils/followUs/followUs';
+import PaymentMethods from '../../utils/paymentMethods/paymentMethods';
 
 export default function Footer(){
     return <>

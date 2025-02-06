@@ -1,10 +1,10 @@
 import styles from './header.module.css';
-import UserActionsHeader from "../userActionsHeader/userActionsHeader";
+import UserActionsHeader from "../../utils/userActionsHeader/userActionsHeader";
 import {Inter} from 'next/font/google'
-import NavMenu from '../navMenu/navMenu';
+import NavMenu from '../../utils/navMenu/navMenu';
 
 
-const inter = Inter()
+const inter = Inter({subsets:['latin']})
 
 export default function Header(){
     return <>

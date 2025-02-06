@@ -1,6 +1,6 @@
 import styles from './filterOptions.module.css';
-import Accordian from "../accordian/accordian";
-import Icon from "../icon/icon";
+import Accordian from "../../utils/accordian/accordian";
+import Icon from "../../utils/icon/icon";
 
 
 export default function FilterOptions({}){

@@ -1,7 +1,7 @@
 'use client'
 import styles from './filterBar.module.css';
-import CustomSelect from "../customSelect/CustomSelect";
-import Icon from "../icon/icon";
+import CustomSelect from "../../utils/customSelect/CustomSelect";
+import Icon from "../../utils/icon/icon";
 import { useState } from 'react';
 
 export default function FilterBar({toggleFilters,totalItems}){

@@ -13,7 +13,7 @@ export default function PageBody(){
     const [productsList,setProductList] = useState([])
     
     function fetchProducts(){
-        fetch('https://fakestoreapi.com/products').
+        fetch(process.env.NEXT_PUBLIC_API_URL).
         then((res)=>res.json())
         .then((res) => setProductList(res))
     }
